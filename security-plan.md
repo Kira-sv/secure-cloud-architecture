@@ -79,6 +79,7 @@ Cloud security means that the cloud provider is in charge of safeguarding the ha
 When it comes to cloud security, the client is in charge of protecting their own data, apps, identity management, and operating system settings.
 
 **Part 8: Answer the Architecture Questions**
+
 3. *Which resource should be directly accessible from the Internet?*
 The Internet should provide direct access to both the CDN and the load balancer. 
 
