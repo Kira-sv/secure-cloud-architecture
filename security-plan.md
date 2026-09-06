@@ -84,7 +84,7 @@ When it comes to cloud security, the client is in charge of protecting their own
 The Internet should provide direct access to both the CDN and the load balancer. 
 
 4. *Why should the database remain private?*
-Sensitive student information in the database needs to be shielded from outside threats. Data breaches and unwanted access are avoided by keeping it private.
+Sensitive student information in the database need to be shielded from outside threats. Data breaches and unwanted access are avoided by keeping it private.
 
 5. *Why should users not connect directly to the database?*
 The database is exposed to the internet through direct connections, which poses a serious security risk. Only the application server, which serves as a safe intermediary, should be contacted by users.
