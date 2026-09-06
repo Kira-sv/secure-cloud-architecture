@@ -2,27 +2,135 @@
 <html>
 <head>
     <title>Student Management System</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --background-color: #f8f9fa;
+            --text-color: #333333;
+            --border-color: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin: 0;
+            font-size: 24px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background: #ffffff;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9fbfc;
+        }
+
+        tr:hover {
+            background-color: #f1f4f8;
+        }
+
+        td {
+            border-bottom: 1px solid var(--border-color);
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Student Management System</h1>
-    <button>Login</button>
 
-    <h2>Student Records</h2>
-    <table border="1">
-        <tr>
-            <th>Student No.</th>
-            <th>Name</th>
-            <th>Course</th>
-            <th>Year Level</th>
-            <th>Email</th>
-        </tr>
-        <tr>
-            <td>2026-001</td>
-            <td>Juan Dela Cruz</td>
-            <td>BSIT</td>
-            <td>2nd Year</td>
-            <td>juan@example.com</td>
-        </tr>
-    </table>
+    <div class="container">
+        <div class="header-section">
+            <h1>Student Management System</h1>
+            <button>Login</button>
+        </div>
+
+        <h2>Student Records</h2>
+        <table>
+            <tr>
+                <th>Student No.</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Year Level</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>2026-001</td>
+                <td>Juan Dela Cruz</td>
+                <td>BSIT</td>
+                <td>2nd Year</td>
+                <td>juan@example.com</td>
+            </tr>
+        </table>
+    </div>
+
 </body>
 </html>
