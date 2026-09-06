@@ -4,7 +4,7 @@
 Static content, such as your HTML and CSS files, is cached by the CDN closer to the users' locations. This lowers latency, increases the web application's overall loading speed, and lessens the amount of direct traffic that reaches your primary infrastructure.
 
 ## Load Balancer
-Incoming internet requests are divided equally among several application servers by the load balancer. This serves as the application's secure entry point, guaranties high availability, and keeps any one server from crashing under high traffic.
+Incoming internet requests are divided equally among several application servers by the load balancer. This serves as the application's secure entry point, guarantees high availability, and keeps any one server from crashing under high traffic.
 
 ## Application Servers
 The Student Management System's core logic is managed by application servers, which also handle users' dynamic requests. These servers should only accept traffic that is routed internally via the load balancer in order to maintain security. This is known as a private subnet. Sensitive student information is safely stored in the database. To guard against
