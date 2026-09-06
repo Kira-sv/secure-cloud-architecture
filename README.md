@@ -3,7 +3,7 @@
 ## Student Information
 Name: Castro, Mark Angelo C
 Section: CCIS7E
-Course: BSIT NET-AD
+Course: BSIT Net-AD
 Date: SEPTEMBER 05, 2026
 
 ## Project Description
